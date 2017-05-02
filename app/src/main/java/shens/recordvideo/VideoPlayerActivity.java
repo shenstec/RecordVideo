@@ -86,6 +86,11 @@ public class VideoPlayerActivity extends Activity implements
         mVideoView.setVideoPath(mPath);
     }
 
+    /**
+     * 获取屏幕宽度
+     * @param context
+     * @return
+     */
     public int getScreenWidth(Activity context) {
         DisplayMetrics mDisplayMetrics = new DisplayMetrics();
         context.getWindowManager().getDefaultDisplay().getMetrics(mDisplayMetrics);
